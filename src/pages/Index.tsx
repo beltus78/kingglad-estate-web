@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Building, House, Car, Bed, Droplets } from "lucide-react";
+import { Building, Car, Bed, Droplets } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
@@ -54,7 +54,7 @@ const Index = () => {
       link: "/suites"
     },
     {
-      icon: Oil,
+      icon: Droplets,
       title: "Kingglad Oil",
       description: "Energy sector operations with a commitment to sustainability and efficiency.",
       link: "/oil"
@@ -106,16 +106,20 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-gray-100">
       <Navigation />
 
       {/* Hero Section */}
-      <section id="home" className="pt-20 min-h-screen bg-gradient-to-br from-white via-gray-50 to-kingglad-green/5 flex items-center">
+      <section id="home" className="pt-20 min-h-screen bg-gradient-to-br from-gray-200 via-gray-100 to-kingglad-green/5 flex items-center">
         <div className="container mx-auto px-4">
           <div className="text-center animate-fade-in">
             <div className="mb-8">
-              <div className="w-20 h-20 bg-kingglad-green rounded-lg flex items-center justify-center mx-auto mb-6 animate-scale-in">
-                <span className="text-white font-bold text-2xl">K</span>
+              <div className="w-32 h-32 mx-auto mb-6 animate-scale-in">
+                <img 
+                  src="/lovable-uploads/2f793902-9398-4388-ae69-4044dd591a2a.png" 
+                  alt="Kingglad Group Logo" 
+                  className="w-full h-full"
+                />
               </div>
               <h1 className="text-5xl md:text-7xl font-bold text-kingglad-charcoal mb-6 leading-tight">
                 Kingglad Group

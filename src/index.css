@@ -1,10 +1,11 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 220 14% 96%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
@@ -52,7 +53,7 @@
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
+    --background: 220 13% 18%;
     --foreground: 210 40% 98%;
 
     --card: 222.2 84% 4.9%;
@@ -98,4 +99,13 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Luxury styles */
+.bg-luxury {
+  @apply bg-gradient-to-br from-gray-200 via-gray-100 to-gray-200;
+}
+
+.card-luxury {
+  @apply bg-white shadow-xl border-0 hover:shadow-2xl transition-all duration-300;
 }

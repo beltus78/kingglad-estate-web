@@ -8,9 +8,11 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-8 h-8 bg-kingglad-green rounded-sm flex items-center justify-center">
-                <span className="text-white font-bold text-sm">K</span>
-              </div>
+              <img 
+                src="/lovable-uploads/2f793902-9398-4388-ae69-4044dd591a2a.png" 
+                alt="Kingglad Group Logo" 
+                className="h-10 w-10"
+              />
               <span className="text-xl font-bold">Kingglad Group</span>
             </div>
             <p className="text-gray-400 mb-6">Building Excellence, Creating Value</p>
