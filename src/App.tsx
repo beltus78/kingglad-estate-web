@@ -11,6 +11,7 @@ import Realty from "./pages/Realty";
 import Auto from "./pages/Auto";
 import Suites from "./pages/Suites";
 import Oil from "./pages/Oil";
+import Agric from "./pages/Agric";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 
@@ -29,6 +30,7 @@ const App = () => (
           <Route path="/auto" element={<Auto />} />
           <Route path="/suites" element={<Suites />} />
           <Route path="/oil" element={<Oil />} />
+          <Route path="/agric" element={<Agric />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

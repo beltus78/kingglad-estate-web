@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-3 mb-6">
               <img 
-                src="/lovable-uploads/2f793902-9398-4388-ae69-4044dd591a2a.png" 
+                src="/lovable-uploads/2a93a8b8-bbdf-495c-887e-4313c8c516f2.png" 
                 alt="Kingglad Group Logo" 
                 className="h-10 w-10"
               />
@@ -26,6 +26,7 @@ const Footer = () => {
               <li><Link to="/auto" className="text-gray-400 hover:text-kingglad-green transition-colors">Kingglad Auto</Link></li>
               <li><Link to="/suites" className="text-gray-400 hover:text-kingglad-green transition-colors">Kingglad Suites</Link></li>
               <li><Link to="/oil" className="text-gray-400 hover:text-kingglad-green transition-colors">Kingglad Oil</Link></li>
+              <li><Link to="/agric" className="text-gray-400 hover:text-kingglad-green transition-colors">Kingglad Agric</Link></li>
             </ul>
           </div>
           

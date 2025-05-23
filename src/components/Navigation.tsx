@@ -17,7 +17,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-3">
             <img 
-              src="/lovable-uploads/2f793902-9398-4388-ae69-4044dd591a2a.png" 
+              src="/lovable-uploads/2a93a8b8-bbdf-495c-887e-4313c8c516f2.png" 
               alt="Kingglad Group Logo" 
               className="h-10 w-10"
             />
@@ -49,6 +49,7 @@ const Navigation = () => {
                 <Link to="/auto" className="block px-4 py-2 text-kingglad-charcoal hover:bg-kingglad-green hover:text-white">Kingglad Auto</Link>
                 <Link to="/suites" className="block px-4 py-2 text-kingglad-charcoal hover:bg-kingglad-green hover:text-white">Kingglad Suites</Link>
                 <Link to="/oil" className="block px-4 py-2 text-kingglad-charcoal hover:bg-kingglad-green hover:text-white">Kingglad Oil</Link>
+                <Link to="/agric" className="block px-4 py-2 text-kingglad-charcoal hover:bg-kingglad-green hover:text-white">Kingglad Agric</Link>
               </div>
             </div>
             <Link to="/portfolio" className="text-kingglad-charcoal hover:text-kingglad-green transition-colors">Portfolio</Link>
@@ -68,6 +69,7 @@ const Navigation = () => {
                 <Link to="/auto" className="block text-kingglad-charcoal hover:text-kingglad-green transition-colors" onClick={() => setIsMenuOpen(false)}>Kingglad Auto</Link>
                 <Link to="/suites" className="block text-kingglad-charcoal hover:text-kingglad-green transition-colors" onClick={() => setIsMenuOpen(false)}>Kingglad Suites</Link>
                 <Link to="/oil" className="block text-kingglad-charcoal hover:text-kingglad-green transition-colors" onClick={() => setIsMenuOpen(false)}>Kingglad Oil</Link>
+                <Link to="/agric" className="block text-kingglad-charcoal hover:text-kingglad-green transition-colors" onClick={() => setIsMenuOpen(false)}>Kingglad Agric</Link>
               </div>
               <Link to="/portfolio" className="text-kingglad-charcoal hover:text-kingglad-green transition-colors" onClick={() => setIsMenuOpen(false)}>Portfolio</Link>
               <Link to="/contact" className="text-kingglad-charcoal hover:text-kingglad-green transition-colors" onClick={() => setIsMenuOpen(false)}>Contact</Link>

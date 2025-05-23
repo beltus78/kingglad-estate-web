@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Building, Car, Bed, Droplets } from "lucide-react";
+import { Building, Car, Bed, Droplets, Leaf } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
@@ -58,49 +58,55 @@ const Index = () => {
       title: "Kingglad Oil",
       description: "Energy sector operations with a commitment to sustainability and efficiency.",
       link: "/oil"
+    },
+    {
+      icon: Leaf,
+      title: "Kingglad Agric",
+      description: "Sustainable agricultural solutions focusing on cocoa, palm, and plantains production in Cameroon.",
+      link: "/agric"
     }
   ];
 
   const projects = [
     {
       title: "Luxury Residential Complex",
-      image: "https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?w=600&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1524397057410-1e775ed476f3?w=600&h=400&fit=crop",
       description: "Modern 50-unit residential development in Limbe"
     },
     {
       title: "Commercial Tower",
-      image: "https://images.unsplash.com/photo-1496307653780-42ee777d4833?w=600&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=600&h=400&fit=crop",
       description: "20-story commercial office building"
     },
     {
       title: "Executive Homes",
-      image: "https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=600&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1594408052115-7e4372d85f1e?w=600&h=400&fit=crop",
       description: "Premium executive housing project"
     },
     {
       title: "Mixed-Use Development",
-      image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=600&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=600&h=400&fit=crop",
       description: "Integrated commercial and residential space"
     }
   ];
 
   const testimonials = [
     {
-      name: "John Doe",
+      name: "John Atemkeng",
       position: "Property Investor",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop",
+      image: "https://images.unsplash.com/photo-1506634572416-48cdfe530110?w=150&h=150&fit=crop",
       quote: "Kingglad Group has exceeded my expectations with their attention to detail and quality of construction. Their developments stand out in the Cameroonian market."
     },
     {
-      name: "Sarah Johnson",
+      name: "Sarah Nkongho",
       position: "Business Owner",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop",
+      image: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=150&h=150&fit=crop",
       quote: "Working with Kingglad Auto for our company fleet was a seamless experience. Their professionalism and service quality is unmatched in the region."
     },
     {
-      name: "Michael Brown",
+      name: "Michael Tanjong",
       position: "Hotel Manager",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop",
+      image: "https://images.unsplash.com/photo-1522556189639-b150ed9c4330?w=150&h=150&fit=crop",
       quote: "Kingglad Suites has set a new standard for hospitality in Limbe. The attention to guest comfort and modern amenities makes it our top recommendation."
     }
   ];
@@ -116,7 +122,7 @@ const Index = () => {
             <div className="mb-8">
               <div className="w-32 h-32 mx-auto mb-6 animate-scale-in">
                 <img 
-                  src="/lovable-uploads/2f793902-9398-4388-ae69-4044dd591a2a.png" 
+                  src="/lovable-uploads/2a93a8b8-bbdf-495c-887e-4313c8c516f2.png" 
                   alt="Kingglad Group Logo" 
                   className="w-full h-full"
                 />
@@ -170,11 +176,11 @@ const Index = () => {
             </p>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-kingglad-green mb-2">4</div>
+                <div className="text-3xl font-bold text-kingglad-green mb-2">5</div>
                 <div className="text-gray-600">Major Subsidiaries</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-kingglad-green mb-2">5+</div>
+                <div className="text-3xl font-bold text-kingglad-green mb-2">6+</div>
                 <div className="text-gray-600">Business Sectors</div>
               </div>
               <div className="text-center">
@@ -204,9 +210,9 @@ const Index = () => {
               Kingglad Group operates through multiple subsidiary companies across strategic sectors
             </p>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
             {services.map((service, index) => (
-              <Card key={index} className="hover:shadow-xl transition-all duration-300 hover:scale-105 bg-white border-0 shadow-lg h-full">
+              <Card key={index} className="card-luxury h-full">
                 <CardContent className="p-8 text-center flex flex-col h-full">
                   <div className="w-16 h-16 bg-kingglad-green/10 rounded-lg flex items-center justify-center mx-auto mb-6">
                     <service.icon className="w-8 h-8 text-kingglad-green" />
@@ -239,7 +245,7 @@ const Index = () => {
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {projects.map((project, index) => (
-              <Card key={index} className="overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-105 border-0 shadow-lg">
+              <Card key={index} className="card-luxury overflow-hidden">
                 <div className="relative overflow-hidden">
                   <img 
                     src={project.image} 
@@ -279,7 +285,7 @@ const Index = () => {
                 {testimonials.map((testimonial, index) => (
                   <CarouselItem key={index}>
                     <div className="p-6">
-                      <Card className="border-0 shadow-lg">
+                      <Card className="card-luxury">
                         <CardContent className="p-8">
                           <div className="flex flex-col items-center text-center">
                             <img 
@@ -338,8 +344,8 @@ const Index = () => {
             </div>
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1460574283810-2aab119d8511?w=600&h=600&fit=crop" 
-                alt="Modern Building" 
+                src="https://images.unsplash.com/photo-1604328698692-f76ea9498e76?w=600&h=600&fit=crop" 
+                alt="Cameroonian Business" 
                 className="rounded-lg shadow-xl"
               />
             </div>
