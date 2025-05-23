@@ -219,16 +219,24 @@ const Index = () => {
                 <h3 className="text-2xl font-bold text-kingglad-charcoal mb-6">Get In Touch</h3>
                 <div className="space-y-4">
                   <div>
+                    <h4 className="font-semibold text-kingglad-charcoal mb-1">CEO</h4>
+                    <p className="text-gray-600">Kingnofline N. Assam</p>
+                  </div>
+                  <div>
                     <h4 className="font-semibold text-kingglad-charcoal mb-1">Address</h4>
-                    <p className="text-gray-600">123 Business District, City Center, State 12345</p>
+                    <p className="text-gray-600">Limbe, Cameroon</p>
                   </div>
                   <div>
                     <h4 className="font-semibold text-kingglad-charcoal mb-1">Phone</h4>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
+                    <p className="text-gray-600">671673049</p>
                   </div>
                   <div>
                     <h4 className="font-semibold text-kingglad-charcoal mb-1">Email</h4>
-                    <p className="text-gray-600">info@kinggladgroup.com</p>
+                    <p className="text-gray-600">contact@kinggladgroup.com</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-kingglad-charcoal mb-1">Website</h4>
+                    <p className="text-gray-600">www.kinggladgroup.com</p>
                   </div>
                   <div>
                     <h4 className="font-semibold text-kingglad-charcoal mb-1">Business Hours</h4>
