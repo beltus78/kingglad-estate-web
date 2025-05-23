@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Oil } from "lucide-react";
+import { Droplets } from "lucide-react";
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 
@@ -66,7 +66,7 @@ const OilPage = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="w-16 h-16 bg-kingglad-green/10 rounded-lg flex items-center justify-center mx-auto mb-6">
-              <Oil className="w-8 h-8 text-kingglad-green" />
+              <Droplets className="w-8 h-8 text-kingglad-green" />
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-kingglad-charcoal mb-6">Kingglad Oil</h1>
             <div className="w-16 h-1 bg-kingglad-green mx-auto mb-8"></div>

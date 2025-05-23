@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Building, House, Car, Bed, Oil } from "lucide-react";
+import { Building, House, Car, Bed, Droplets } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';

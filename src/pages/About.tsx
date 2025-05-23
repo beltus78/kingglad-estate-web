@@ -1,9 +1,8 @@
-
 import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
-import { Building, House, Car, Bed, Oil, Users, MapPin } from "lucide-react";
+import { Building, House, Car, Bed, Droplets, Users, MapPin } from "lucide-react";
 
 const About = () => {
   const timeline = [
@@ -180,7 +179,7 @@ const About = () => {
               
               <div className="flex flex-col md:flex-row gap-6 items-center">
                 <div className="w-20 h-20 bg-kingglad-green/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Oil className="w-10 h-10 text-kingglad-green" />
+                  <Droplets className="w-10 h-10 text-kingglad-green" />
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-kingglad-charcoal mb-2">KINGGLAD OIL</h3>
