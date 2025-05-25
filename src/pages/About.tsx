@@ -42,7 +42,7 @@ const About = () => {
     {
       name: "Kingnofline N. Assam",
       position: "Chief Executive Officer",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=300&h=300&fit=crop",
+      image: "/lovable-uploads/7ddb9b03-3931-4f46-8da3-828ce1eeb487.png",
       description: "Founder and visionary leader of Kingglad Group, with expertise in strategic business development and property investment."
     },
     {
