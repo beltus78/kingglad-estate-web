@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
@@ -112,11 +111,11 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gray-200">
       <Navigation />
 
       {/* Hero Section */}
-      <section id="home" className="pt-20 min-h-screen bg-gradient-to-br from-gray-200 via-gray-100 to-kingglad-green/5 flex items-center">
+      <section id="home" className="pt-20 min-h-screen bg-gradient-to-br from-gray-300 via-gray-200 to-kingglad-green/5 flex items-center">
         <div className="container mx-auto px-4">
           <div className="text-center animate-fade-in">
             <div className="mb-8">
@@ -163,13 +162,13 @@ const Index = () => {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-24 bg-white">
+      <section id="about" className="py-24 bg-gray-100">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold text-kingglad-charcoal mb-8">About Kingglad Group</h2>
             <div className="w-16 h-1 bg-kingglad-green mx-auto mb-12"></div>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Established in January 2020, Kingglad Group is a diversified conglomerate based in Limbe, Cameroon. We operate as a multi-sector business entity with strategic investments across several key industries in Cameroon's economy.
+              Kingglad Group is a diversified conglomerate based in Limbe, Cameroon. We operate as a multi-sector business entity with strategic investments across several key industries in Cameroon's economy.
             </p>
             <p className="text-lg text-gray-600 mb-12 leading-relaxed">
               Under the leadership of our CEO, Kingnofline N. Assam, we're committed to creating value and socio-economic impact by improving lives and transforming Cameroon through our business operations and initiatives.
@@ -234,7 +233,7 @@ const Index = () => {
       </section>
 
       {/* Portfolio Section */}
-      <section id="portfolio" className="py-24 bg-white">
+      <section id="portfolio" className="py-24 bg-gray-100">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-kingglad-charcoal mb-8">Our Portfolio</h2>
@@ -311,7 +310,7 @@ const Index = () => {
       </section>
 
       {/* Mission & Vision Section */}
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-gray-100">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -354,7 +353,7 @@ const Index = () => {
       </section>
 
       {/* Contact Form - Simplified for the homepage */}
-      <section id="contact" className="py-24 bg-kingglad-green/5">
+      <section id="contact" className="py-24 bg-gray-200">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-kingglad-charcoal mb-8">Contact Us</h2>

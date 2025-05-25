@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Leaf, Coffee, PalmTree, Banana } from "lucide-react";
+import { Leaf, Coffee, TreePine, Banana } from "lucide-react";
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 
@@ -17,7 +17,7 @@ const Agric = () => {
     {
       title: "Palm Cultivation",
       description: "Sustainable palm plantation management focused on producing high-quality palm oil while preserving the environment.",
-      icon: PalmTree,
+      icon: TreePine,
       image: "https://images.unsplash.com/photo-1618897996318-5a901fa6ca71?w=600&h=400&fit=crop"
     },
     {
@@ -58,7 +58,7 @@ const Agric = () => {
       </section>
 
       {/* About Section */}
-      <section className="py-20 bg-luxury">
+      <section className="py-20 bg-gray-200">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -106,7 +106,7 @@ const Agric = () => {
       </section>
 
       {/* Products Section */}
-      <section id="products" className="py-20 bg-white">
+      <section id="products" className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-kingglad-charcoal mb-8">Our Agricultural Products</h2>
@@ -142,7 +142,7 @@ const Agric = () => {
       </section>
 
       {/* Sustainable Farming Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-gray-100">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
@@ -182,7 +182,7 @@ const Agric = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-kingglad-green/10">
+      <section className="py-20 bg-gray-200">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold text-kingglad-charcoal mb-8">Partner With Us</h2>
           <p className="text-xl text-gray-600 mb-10 max-w-3xl mx-auto">
